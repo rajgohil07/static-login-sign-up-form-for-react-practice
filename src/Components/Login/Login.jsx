@@ -9,12 +9,12 @@ export const Login = () => {
         <h2 className="loginText">Login</h2>
 
         <div className="inputTypeMerger">
-          <img src="/email.png" alt="Email icon" />
+          <img src="/public/email.png" alt="Email icon" />
           <input type="text" placeholder="Email" />
         </div>
 
         <div className="inputTypeMerger passwordInput">
-          <img src="/lock.png" alt="Password icon" />
+          <img src="/public/lock.png" alt="Password icon" />
           <input type="text" placeholder="Password" />
         </div>
 
@@ -33,11 +33,11 @@ export const Login = () => {
 
         <div className="googleFacebookWrapper">
           <div className="facebook">
-            <img src="/facebook.png" alt="Facebook logo" />
+            <img src="/public/facebook.png" alt="Facebook logo" />
             <h5 className="companyName">Facebook</h5>
           </div>
           <div className="google">
-            <img src="/google.png" alt="Google logo" />
+            <img src="/public/google.png" alt="Google logo" />
             <h5 className="companyName">Google</h5>
           </div>
         </div>
