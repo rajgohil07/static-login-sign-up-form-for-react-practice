@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static-login-signup-form-react-practise/static/css/main.31bf6632.css",
-    "main.js": "/static-login-signup-form-react-practise/static/js/main.58ea110a.js",
-    "static/media/login-background.jpg": "/static-login-signup-form-react-practise/static/media/login-background.035b986e7da5992bf7b8.jpg",
-    "index.html": "/static-login-signup-form-react-practise/index.html",
-    "main.31bf6632.css.map": "/static-login-signup-form-react-practise/static/css/main.31bf6632.css.map",
-    "main.58ea110a.js.map": "/static-login-signup-form-react-practise/static/js/main.58ea110a.js.map"
+    "main.css": "/static-login-sign-up-form-for-react-practice/static/css/main.a0ea499a.css",
+    "main.js": "/static-login-sign-up-form-for-react-practice/static/js/main.5e3d8b8d.js",
+    "static/media/login-background.jpg": "/static-login-sign-up-form-for-react-practice/static/media/login-background.035b986e7da5992bf7b8.jpg",
+    "index.html": "/static-login-sign-up-form-for-react-practice/index.html",
+    "main.a0ea499a.css.map": "/static-login-sign-up-form-for-react-practice/static/css/main.a0ea499a.css.map",
+    "main.5e3d8b8d.js.map": "/static-login-sign-up-form-for-react-practice/static/js/main.5e3d8b8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.31bf6632.css",
-    "static/js/main.58ea110a.js"
+    "static/css/main.a0ea499a.css",
+    "static/js/main.5e3d8b8d.js"
   ]
 }
