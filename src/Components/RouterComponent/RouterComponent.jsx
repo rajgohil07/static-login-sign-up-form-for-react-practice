@@ -9,9 +9,6 @@ import {
 } from "../../Constant/RouterPaths";
 
 export const RouterComponent = () => {
-  console.log("NODE_ENV:=>", process.env.NODE_ENV);
-  console.log("PUBLIC_URL:=>", process.env.PUBLIC_URL);
-  console.log("Path example:=>", `${process.env.PUBLIC_URL}/lock.png`);
   return (
     <>
       <Routes>
