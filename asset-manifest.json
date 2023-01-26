@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static-login-sign-up-form-for-react-practice/static/css/main.a0ea499a.css",
-    "main.js": "/static-login-sign-up-form-for-react-practice/static/js/main.5e3d8b8d.js",
+    "main.js": "/static-login-sign-up-form-for-react-practice/static/js/main.3fe226b7.js",
     "static/media/login-background.jpg": "/static-login-sign-up-form-for-react-practice/static/media/login-background.035b986e7da5992bf7b8.jpg",
     "index.html": "/static-login-sign-up-form-for-react-practice/index.html",
     "main.a0ea499a.css.map": "/static-login-sign-up-form-for-react-practice/static/css/main.a0ea499a.css.map",
-    "main.5e3d8b8d.js.map": "/static-login-sign-up-form-for-react-practice/static/js/main.5e3d8b8d.js.map"
+    "main.3fe226b7.js.map": "/static-login-sign-up-form-for-react-practice/static/js/main.3fe226b7.js.map"
   },
   "entrypoints": [
     "static/css/main.a0ea499a.css",
-    "static/js/main.5e3d8b8d.js"
+    "static/js/main.3fe226b7.js"
   ]
 }
