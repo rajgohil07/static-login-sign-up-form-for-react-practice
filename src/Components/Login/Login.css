@@ -1,0 +1,155 @@
+.mainLoginWrapper {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/public/login-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    padding: 0rem 2.5rem;
+    background-color: white;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.loginText {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    margin: 3.5rem 0 2.5rem 0;
+}
+
+.inputTypeMerger {
+    padding: 1rem;
+    display: flex;
+    background-color: #e8e8e8;
+    margin-bottom: 1rem;
+}
+
+.passwordInput {
+    margin-bottom: 0rem !important;
+}
+
+.inputTypeMerger>img {
+    width: 20px;
+    height: 20px;
+}
+
+.inputTypeMerger>input {
+    background-color: #e8e8e8;
+    margin-left: 1rem;
+    border: none;
+}
+
+.inputTypeMerger>input:focus {
+    outline: none;
+}
+
+.inputTypeMerger>input::placeholder {
+    color: #b0afaf;
+    font-size: 0.95rem;
+}
+
+.checkBoxWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.checkBoxWrapper>input {
+    width: 17px;
+    height: 17px;
+    margin-right: 0.6rem;
+}
+
+.checkBoxWrapper>h5 {
+    font-size: 13px;
+    color: #b0afaf;
+    font-weight: 500;
+}
+
+.loginButtonWrapper {
+    margin-top: 0.5rem;
+}
+
+.loginButtonWrapper>button {
+    color: white;
+    width: 100%;
+    background-color: palevioletred;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.textLoginSuggest {
+    margin: 2.5rem 0 1rem 0;
+}
+
+.textLoginSuggest h5 {
+    text-align: center;
+    color: #b0afaf;
+    font-weight: 500;
+}
+
+.googleFacebookWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.googleFacebookWrapper>.facebook>img,
+.googleFacebookWrapper>.google>img {
+    width: 22px;
+    height: 22px;
+    margin-right: 0.3rem;
+}
+
+.facebook,
+.google {
+    display: flex;
+    border: 1px solid #e8e8e8;
+    padding: 0.3rem 2rem !important;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.facebook>h5 {
+    color: rgb(89, 0, 255);
+}
+
+.facebook {
+    margin-right: 1rem;
+}
+
+.facebook>h5,
+.google>h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.signUpWrapper {
+    margin: 4.5rem 0rem 1.5rem 0;
+}
+
+.signUpWrapper>h5 {
+    color: #b0afaf;
+    margin: 0;
+    text-align: center;
+}
+
+.signUpWrapper>h5>a {
+    color: #b0afaf;
+    text-decoration: none;
+    border-bottom: 1px solid #b0afaf;
+}
