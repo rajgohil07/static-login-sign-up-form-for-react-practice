@@ -15,7 +15,7 @@ export const Login = () => {
 
         <div className="inputTypeMerger passwordInput">
           <img src={`${publicURLPath}/lock.png`} alt="Password icon" />
-          <input type="text" placeholder="Password" />
+          <input type="password" placeholder="Password" />
         </div>
 
         <div className="checkBoxWrapper">
@@ -42,7 +42,7 @@ export const Login = () => {
           </div>
         </div>
 
-        <div className="signUpWrapper">
+        <div className="signUpTextWrapper">
           <h5>
             Not a member? <Link to={signUpRoutePath}>Sign up now</Link>
           </h5>

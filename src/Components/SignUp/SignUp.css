@@ -1,0 +1,184 @@
+.signUpWrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.signUpBackgroundWrapper {
+    background: url('/public/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUpBox {
+    background: white;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem;
+    border-radius: 10px;
+}
+
+.signUpBox>h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.signUpBox>input {
+    margin-bottom: 1rem;
+    height: 2.5rem;
+    border: 1px solid #b0afaf;
+    border-radius: 5px;
+    padding-left: 0.7rem;
+    font-size: 15px;
+}
+
+.signUpBox>input::placeholder,
+.signUpBox>.confirmPassword>input::placeholder {
+    font-size: 15px;
+    color: #b0afaf;
+}
+
+.signUpBox>input:focus,
+.signUpBox>.confirmPassword>input:focus {
+    outline: none;
+}
+
+.signUpBox>.confirmPassword {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #b0afaf;
+    justify-content: space-between;
+    height: 2.5rem;
+    align-items: center;
+}
+
+.signUpBox>.confirmPassword>input {
+    border: 0;
+    padding-left: 0.7rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.signUpBox>.confirmPassword>img {
+    height: 20px;
+    width: 20px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.signUpBox>.signUpButton {
+    margin-top: 1rem;
+}
+
+.signUpBox>.signUpButton>button {
+    width: 100%;
+    background: blueviolet;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    transition: 300ms all ease-in-out;
+}
+
+.signUpBox>.signUpButton>button:hover {
+    background: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    transition: 300ms all ease-in-out;
+}
+
+.signUpBox>.loginLinker>p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.signUpBox>.loginLinker>p>span>a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+
+/* Ref: https: //stackoverflow.com/a/26634224 */
+.signUpBox>.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.signUpBox>.separator::before,
+.signUpBox>.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #b0afaf;
+}
+
+.signUpBox>.separator:not(:empty)::before {
+    margin-right: 1em;
+}
+
+.signUpBox>.separator:not(:empty)::after {
+    margin-left: 1em;
+}
+
+.signUpBox>.separator>p {
+    color: #b0afaf;
+}
+
+.signUpBox>.facebookButton {
+    display: flex;
+    background: #4267B2;
+    border-radius: 5px;
+    height: 45px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.signUpBox>.facebookButton>img {
+    height: 25px;
+    width: 25px;
+    margin-left: 0.8rem;
+}
+
+.signUpBox>.facebookButton>h5 {
+    margin: 0;
+    color: white;
+    text-align: center !important;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.signUpBox>.googleButton {
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    height: 41px;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid #b0afaf;
+}
+
+.signUpBox>.googleButton>img {
+    height: 25px;
+    width: 25px;
+    margin-left: 0.8rem;
+}
+
+.signUpBox>.googleButton>h5 {
+    margin: 0;
+    color: #b0afaf;
+    text-align: center !important;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+}
