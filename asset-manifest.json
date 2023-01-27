@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "https://rajgohil07.github.io/static-login-sign-up-form-for-react-practice/static/css/main.84d2003f.css",
+    "main.css": "https://rajgohil07.github.io/static-login-sign-up-form-for-react-practice/static/css/main.d02fae23.css",
     "main.js": "https://rajgohil07.github.io/static-login-sign-up-form-for-react-practice/static/js/main.dd92b385.js",
     "static/media/background.jpg": "https://rajgohil07.github.io/static-login-sign-up-form-for-react-practice/static/media/background.035b986e7da5992bf7b8.jpg",
     "index.html": "https://rajgohil07.github.io/static-login-sign-up-form-for-react-practice/index.html",
-    "main.84d2003f.css.map": "https://rajgohil07.github.io/static-login-sign-up-form-for-react-practice/static/css/main.84d2003f.css.map",
+    "main.d02fae23.css.map": "https://rajgohil07.github.io/static-login-sign-up-form-for-react-practice/static/css/main.d02fae23.css.map",
     "main.dd92b385.js.map": "https://rajgohil07.github.io/static-login-sign-up-form-for-react-practice/static/js/main.dd92b385.js.map"
   },
   "entrypoints": [
-    "static/css/main.84d2003f.css",
+    "static/css/main.d02fae23.css",
     "static/js/main.dd92b385.js"
   ]
 }
