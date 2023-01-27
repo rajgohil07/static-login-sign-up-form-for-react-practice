@@ -56,12 +56,12 @@
     justify-content: space-between;
     height: 2.5rem;
     align-items: center;
+    border-radius: 5px;
 }
 
 .signUpBox>.confirmPassword>input {
     border: 0;
     padding-left: 0.7rem;
-    border-radius: 5px;
     width: 100%;
 }
 
